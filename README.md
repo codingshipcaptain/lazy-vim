@@ -7,12 +7,16 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 Instructions for requirements can be found.
 
 ### For installing font (presumes Debian/Ubuntu):
-To install powerline fonts on Linux Debian/Ubuntu
+To install nerd/powerline fonts on Linux Debian/Ubuntu
 install font manager
 sudo apt -y install font-manager
+
+- Need to review below - 
 install powerline fonts
 sudo apt install fonts-powerline
-grab powerline-patched font (ie droid mono) from website and unpack
+- Need to review above -  
+
+grab nerd/powerline-patched font (ie droid mono) from website and unpack
 You can see list at https://www.nerdfonts.com/font-downloads
 Open Fonts manager and find font download and install
 Set terminal to use font under Edit -> Profile Preferences
