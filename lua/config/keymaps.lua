@@ -3,3 +3,4 @@
 -- Add any additional keymaps here
 vim.keymap.set("n", "<C-z>", ":bp<CR>")
 vim.keymap.set("n", "<C-x>", ":bn<CR>")
+vim.keymap.set("n", "<C-c>", ":set hlsearch!<CR>")
