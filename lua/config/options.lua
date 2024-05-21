@@ -7,7 +7,7 @@ local is_wsl = vim.fn.has("wsl") == 1
 -- local is_mac = vim.fn.has("macunix") == 1
 -- local is_linux = not is_wsl and not is_mac
 
-local opt = vim.opt
+-- local opt = vim.opt
 
 -- WSL Clipboard support
 if is_wsl then
