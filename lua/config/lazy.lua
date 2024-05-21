@@ -48,30 +48,11 @@ require("lazy").setup({
 
 -- Volar must be setup a/s tsserver for vue support
 -- https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#tsserver
-require("lspconfig").volar.setup({})
-
---[[
-IMPORTANT: It is crucial to ensure that @vue/typescript-plugin and volar are of identical versions.
-
-location MUST be defined. If the plugin is installed in node_modules, location can have any value.
-
-languages must include vue even if it is listed in filetypes.
-
-filetypes is extended here to include Vue SFC.
-]]
-require("lspconfig").tsserver.setup({
+require("lspconfig").volar.setup({
+	filetypes = { "typescript", "javascript", "vue" },
 	init_options = {
-		plugins = {
-			{
-				name = "@vue/typescript-plugin",
-				location = "/usr/local/lib/node_modules/@vue/typescript-plugin",
-				languages = { "javascript", "typescript", "vue" },
-			},
+		vue = {
+			hybridMode = false,
 		},
-	},
-	filetypes = {
-		"javascript",
-		"typescript",
-		"vue",
 	},
 })
