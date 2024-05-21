@@ -1,6 +1,7 @@
 -- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
-require("config/lualine-config")
+require("config.lualine-config")
+require("config.onedark")
 
 -- Vim settings for visuals ie tab spacing
 vim.o.tabstop = 4 -- A TAB character looks like 4 spaces
