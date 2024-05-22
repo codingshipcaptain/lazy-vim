@@ -49,10 +49,15 @@ require("lazy").setup({
 -- Volar must be setup a/s tsserver for vue support
 -- https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#tsserver
 require("lspconfig").volar.setup({
-	filetypes = { "typescript", "javascript", "vue" },
+	filetypes = { "vue" },
 	init_options = {
 		vue = {
 			hybridMode = false,
 		},
 	},
+	settings = {},
+})
+
+require("lspconfig").tsserver.setup({
+	filetypes = { "typescript" },
 })
