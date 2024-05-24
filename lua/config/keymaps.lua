@@ -11,3 +11,7 @@ vim.keymap.set("n", "<C-z>", ":bp<CR>")
 vim.keymap.set("n", "<C-x>", ":bn<CR>")
 -- Toggle highlight on search results
 vim.keymap.set("n", "<C-c>", ":set hlsearch!<CR>")
+-- Go to next error
+vim.keymap.set("n", "]g", vim.diagnostic.goto_next)
+-- Go to previous error
+vim.keymap.set("n", "[g", vim.diagnostic.goto_prev)
