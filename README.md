@@ -22,7 +22,22 @@ Open Fonts manager and find font download and install
 Set terminal to use font under Edit -> Profile Preferences
 
 ## Keymaps
-WIP
+WIP - these are resources for the default configuration
 https://www.lazyvim.org/Keymaps
 https://www.lazyvim.org/configuration/general#Keymaps
+
+
+### Requires
+Neovim >= 0.9.0 (current config testing w/ 0.10.0)
+Git >= 2.19.0
+For treesitter, you'll need a c compiler but if you are building  
+neovim from source, you'll already have this.
+
+
+### Installing supplementals/optionals
+Lazygit - https://github.com/jesseduffield/lazygit
+
+For telescope:
+live grep (ripgrep) - https://github.com/BurntSushi/ripgrep
+find files (fd - I'm not using this currently) - https://github.com/sharkdp/fd
 
