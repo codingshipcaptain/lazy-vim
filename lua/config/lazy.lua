@@ -60,4 +60,5 @@ require("lspconfig").volar.setup({
 
 require("lspconfig").tsserver.setup({
 	filetypes = { "typescript" },
+	root_dir = require("lspconfig.util").root_pattern(".git"),
 })
