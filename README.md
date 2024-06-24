@@ -28,7 +28,7 @@ https://www.lazyvim.org/configuration/general#Keymaps
 
 
 ### Requires
-Neovim >= 0.9.0 (current config testing w/ 0.10.0)
+Neovim >= 0.10.0 (current config testing w/ 0.10.0)
 Git >= 2.19.0
 For treesitter, you'll need a c compiler but if you are building  
 neovim from source, you'll already have this.
