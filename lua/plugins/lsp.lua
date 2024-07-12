@@ -9,6 +9,7 @@ return {
 				"gopls",
 				"html-lsp",
 				"json-lsp",
+				"python-lsp-server",
 				"typescript-language-server",
 				"vue-language-server",
 			},
