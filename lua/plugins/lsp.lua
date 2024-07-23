@@ -5,7 +5,7 @@ return {
 			ensure_installed = {
 				"bash-language-server",
 				"css-lsp",
-				"eslint-lsp",
+				"eslint-d",
 				"gopls",
 				"html-lsp",
 				"json-lsp",
