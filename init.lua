@@ -1,7 +1,8 @@
 -- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
 require("config.lualine-config")
-require("config.onedark")
+-- require("config.onedark")
+require("config.catppuccin")
 
 vim.opt.termguicolors = true
 -- Vim settings for visuals ie tab spacing
